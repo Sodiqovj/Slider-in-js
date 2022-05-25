@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.images-box{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+.images-box .box{
+    width: 500px;
+    height: 500px;
+    transition: 0.5s;
+}
+.buttons{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 2px solid black;
+}
+.buttons button{
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: mediumslateblue;
+}
